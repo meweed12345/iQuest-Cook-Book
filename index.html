@@ -1,139 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cook Book</title>
+    <title>iQuest Cook Book</title>
+
     <!-- Fontasesome CSS -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-  </head>
-  
+</head>
+
 <body>
-	<header>
-		<h1><i class="fa fa-cutlery" aria-hidden="true"></i>iQuest Cook Book</h1>
-	</header>
-	<section class="navber">
-		<div class="nav-inner">
-			<a href="#"><i class="fa fa-plus" aria-hidden="true"></i>New recipe</a>
-		</div>
-		<div class="nav-inner">
-			<select>
-				<option>Select a recipe</option>
-				<option>Sambled egg omlette</option>
-			</select>
-		</div>
-		
-	</section>
-	<div class="main-table">
-		<div class="table-single">
-			<h2><i class="fa fa-info" aria-hidden="true"></i>About</h2>
-			<div class="singel-inner">
-				<p>Recipe title</p>
-				<input type="text" placeholder="Title">
-				<p>Description</p>
-				<textarea placeholder="About the recipe"></textarea>
-				<div class="about-sel">
-				  <div class="abt-inn">
-					<h3>Portions
-						<select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-							<option>6</option>
-							<option>7</option>
-							<option>8</option>
-							<option>9</option>
-							<option>10</option>
-						</select>
-					  </h3>
-					</div>
-					<div class="abt-inn">
-					<h3>Time(mins)
-						<select>
-							<option>5</option>
-							<option>10</option>
-							<option>15</option>
-							<option>20</option>
-							<option>30</option>
-							<option>45</option>
-							<option>60</option>
-							<option>90</option>
-							<option>120</option>
-						</select>
-					  </h3>
-					</div>
-					<div class="abt-inn">
-					<h3>Dificulty
-						<select>
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-					  </h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="table-single">
-			<h2><i class="fa fa-list for" aria-hidden="true"></i>Ingredients</h2>
-			<div class="singel-inner">
-				<ul>
-					<li>300 g brown rice</li>
-					<li>2 pc red onions</li>
-					<li>1 pc fresh red chilli</li>
-					<li>25 g unsalted butter</li>
-					<li>6 pc large free-range eggs</li>
-				</ul>
-				<div class="ing-inner">
-					<input type="text" placeholder="Qty.">
-					<select>
-						<option>Unit</option>
-						<option>g</option>
-						<option>Kg</option>
-						<option>pc</option>
-						<option>ml</option>
-						<option>l</option>
-						<option>tea spoon(s)</option>
-					</select>
-					<h4>of</h4>
-					<input class="ing-inp" type="text" placeholder="Ingredient">
-					<a href="#"><i class="fa fa-plus-square" aria-hidden="true"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="table-single">
-			<h2><i class="fa fa-list-ol for" aria-hidden="true"></i>Steps</h2>
-			<div class="singel-inner">
-				<ol>
-					<li>Cook the rice in a pan of boilling salted water according to the packet instructions, then drain and refresh under cold water, leaving it in the colander.</li>
-					<li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes, then carefully remove with a slotted spoon. Turn the heat up under the poaching water and bring back to a good simmer.</li>
-					<li>Meanwhile, peel the onions and finely slice with the red chilli(dessed if you like) and coriander stalks. Peel and finely chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1 tablespoon of oil and the butter, and cook for 10 minutes, or unit soft but not coloured, stirring occasionally.</li>
-				</ol>
-				<p>Step</p>
-				<textarea placeholder="Step description"></textarea>
-				<a class="add-step" href="#"><i class="fa fa-plus-square" aria-hidden="true"></i>Add step</a>
-			</div>
-		</div>
-		<div class="bottom-btn">
-			<a class="cancel" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i>Cancel</a>
-			<a class="save" href="#"><i class="fa fa-floppy-o" aria-hidden="true"></i>Save recipe</a>
-			
-		</div>
-	</div>
-	
-  
-    
-    
+    <!-- Header -->
+    <header>
+        <h1>
+            <i class="fa fa-cutlery" aria-hidden="true"></i>iQuest Cook Book</h1>
+    </header>
+    <!-- Section -->
+    <section class="navbar">
+        <div class="nav-inner">
+            <a href="#">
+                <i class="fa fa-plus" aria-hidden="true"></i>New recipe</a>
+        </div>
+        <div class="nav-inner">
+            <select>
+                <option>Select a recipe</option>
+                <option>Sambled egg omlette</option>
+            </select>
+        </div>
+
+    </section>
+    <!-- About -->
+    <div class="main-table">
+        <div class="table-single">
+            <h2>
+                <i class="fa fa-info" aria-hidden="true"></i>About</h2>
+            <div class="singel-inner">
+                <p>Recipe title</p>
+                <input type="text" placeholder="Title">
+                <p>Description</p>
+                <textarea placeholder="About the recipe"></textarea>
+                <div class="about-sel">
+                    <div class="abt-inn">
+                        <h3>Portions
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                        </h3>
+                    </div>
+                    <div class="abt-inn">
+                        <h3>Time(mins)
+                            <select>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>15</option>
+                                <option>20</option>
+                                <option>30</option>
+                                <option>45</option>
+                                <option>60</option>
+                                <option>90</option>
+                                <option>120</option>
+                            </select>
+                        </h3>
+                    </div>
+                    <div class="abt-inn">
+                        <h3>Dificulty
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ingredients -->
+        <div class="table-single">
+            <h2>
+                <i class="fa fa-list for" aria-hidden="true"></i>Ingredients</h2>
+            <div class="singel-inner">
+                <ul>
+                    <li>300 g brown rice</li>
+                    <li>2 pc red onions</li>
+                    <li>1 pc fresh red chilli</li>
+                    <li>25 g unsalted butter</li>
+                    <li>6 pc large free-range eggs</li>
+                </ul>
+                <div class="ing-inner">
+                    <input type="text" placeholder="Qty.">
+                    <select>
+                        <option>Unit</option>
+                        <option>g</option>
+                        <option>Kg</option>
+                        <option>pc</option>
+                        <option>ml</option>
+                        <option>l</option>
+                        <option>tea spoon(s)</option>
+                    </select>
+                    <h4>of</h4>
+                    <input class="ing-inp" type="text" placeholder="Ingredient">
+                    <a href="#">
+                        <i class="fa fa-plus-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Steps -->
+        <div class="table-single">
+            <h2>
+                <i class="fa fa-list-ol for" aria-hidden="true"></i>Steps</h2>
+            <div class="singel-inner">
+                <ol>
+                    <li>Cook the rice in a pan of boilling salted water according to the packet instructions, then drain and refresh under cold water, leaving it in the colander.</li>
+                    <li>At the same time, poach the fish in a large pan of simmering salted water on a medium heat for 10 minutes, then carefully remove with a slotted spoon. Turn the heat up under the poaching water and bring back to a good simmer.</li>
+                    <li>Meanwhile, peel the onions and finely slice with the red chilli(dessed if you like) and coriander stalks. Peel and finely chop the garlic and ginger. Place it all in a large frying pan on a medium heat with 1 tablespoon of oil and
+                        the butter, and cook for 10 minutes, or unit soft but not coloured, stirring occasionally.</li>
+                </ol>
+                <p>Step</p>
+                <textarea placeholder="Step description"></textarea>
+                <a class="add-step" href="#">
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>Add step</a>
+            </div>
+        </div>
+        <div class="bottom-btn">
+            <a class="cancel" href="#">
+                <i class="fa fa-trash-o" aria-hidden="true"></i>Cancel</a>
+            <a class="save" href="#">
+                <i class="fa fa-floppy-o" aria-hidden="true"></i>Save recipe</a>
+
+        </div>
+    </div>
+
+
+
+
 
 
 </body>
+
 </html>
